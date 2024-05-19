@@ -7,8 +7,7 @@ export default function Navbar() {
   return (
     <div className="flex px-8 lg:px-20 py-4 shadow-xl font-extrabold text-gray-700 z-50 fixed top-0 w-full bg-gray-100">
       <div
-        className="absolute top-1 overflow-hidden"
-        style={{ height: "6.5rem", width: "6.5rem" }}
+        className="absolute top-1 overflow-hidden h-[5rem] w-[5rem] md:h-[6.5rem] md:w-[6.5rem]"
       >
         <Image
           src={logo.src}
