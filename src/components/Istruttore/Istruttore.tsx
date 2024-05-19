@@ -1,7 +1,7 @@
 export default function Istruttore() {
   return (
     <div className="bg-gray-100 h-full px-5 lg:px-10 py-8">
-      <h2 className="text-center lg:text-left mb-10 text-4xl lg:text-5xl font-extrabold text-gray-800 underline decoration-custom-pink decoration-8 underline-offset-8">
+      <h2 className="text-center lg:text-left mb-10 text-3xl lg:text-4xl font-extrabold text-gray-800 underline decoration-custom-pink decoration-8 underline-offset-8">
         ISTRUTTORE
       </h2>
       <div className="flex flex-col gap-8" id="istruttore">

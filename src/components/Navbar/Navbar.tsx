@@ -29,7 +29,7 @@ export default function Navbar() {
         <span className="bar"></span>
         <span className="bar"></span>
       </div>
-      <div className="flex ml-auto md:gap-8 lg:gap-12 nav-menu text-lg lg:text-xl">
+      <div className="flex ml-auto md:gap-8 lg:gap-12 nav-menu text-lg">
         <h2
           className="pink-link ml-auto nav-item"
           onClick={() => {

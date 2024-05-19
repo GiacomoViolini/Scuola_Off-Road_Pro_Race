@@ -6,7 +6,7 @@ export default function Informazioni() {
       className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 h-full px-5 lg:px-10 py-8 bg-gray-100"
       id="informazioni"
     >
-      <div className="flex flex-col items-center bg-white p-5 rounded-3xl shadow-2xl transition-transform transform hover:scale-95 duration-500">
+      <div className="flex flex-col items-center bg-white p-3 rounded-3xl shadow-2xl transition-transform transform hover:scale-95 duration-500">
         <Image
           src="/informazioni1.jpg"
           alt="Informazioni 1"
@@ -16,7 +16,7 @@ export default function Informazioni() {
           sizes="(min-width: 400px) 288px, calc(85vw - 35px)"
           quality={100}
         />
-        <h2 className="my-8 text-3xl lg:text-4xl text-center font-bold text-gray-800 underline decoration-custom-green underline-offset-8 decoration-8">
+        <h2 className="my-6 text-3xl lg:text-3xl text-center font-bold text-gray-800 underline decoration-custom-green underline-offset-8 decoration-8">
           Chi Siamo?
         </h2>
         <p className="text-center font-medium text-gray-800 ">
@@ -38,7 +38,7 @@ export default function Informazioni() {
           sizes="(min-width: 400px) 288px, calc(85vw - 35px)"
           quality={100}
         />
-        <h2 className="my-8 text-3xl lg:text-4xl text-center font-bold text-gray-800 underline decoration-custom-pink underline-offset-8 decoration-8">
+        <h2 className="my-6 text-3xl lg:text-3xl text-center font-bold text-gray-800 underline decoration-custom-pink underline-offset-8 decoration-8">
           Cosa Offriamo?
         </h2>
         <p className="text-center font-medium text-gray-800 ">
@@ -64,7 +64,7 @@ export default function Informazioni() {
           sizes="(min-width: 400px) 288px, calc(85vw - 35px)"
           quality={100}
         />
-        <h2 className="my-8 text-3xl lg:text-4xl text-center font-bold text-gray-800 underline decoration-custom-green underline-offset-8 decoration-8">
+        <h2 className="my-6 text-3xl lg:text-3xl text-center font-bold text-gray-800 underline decoration-custom-green underline-offset-8 decoration-8">
           Cosa Aspettarsi?
         </h2>
         <p className="text-center font-medium text-gray-800 ">
