@@ -84,7 +84,7 @@ const DiconoDiNoi = () => {
           <div
             className={`flex flex-col items-center justify-center bg-white h-[35rem] md:h-[27rem] p-2 md:py-4 md:px-8 rounded-3xl shadow-2xl opacity-${opacity}`}
           >
-            <h2 className="my-1 md:my-5 text-sm md:text-lg text-center font-semibold text-zinc-500">
+            <h2 className="my-1 md:my-5 text-sm md:text-base text-center font-semibold text-zinc-500">
               &ldquo;{reviews[i].text}
             </h2>
             <p className="text-center md:text-xl font-bold text-zinc-800 ">
@@ -95,10 +95,10 @@ const DiconoDiNoi = () => {
             <div
               className={`hidden lg:flex flex-col items-center justify-center bg-white h-[27rem] py-4 px-8 rounded-3xl shadow-2xl opacity-${opacity}`}
             >
-              <h2 className="my-5 text-center font-semibold text-zinc-500">
+              <h2 className="my-1 md:my-5 text-sm md:text-base text-center font-semibold text-zinc-500">
                 &ldquo;{reviews[i+1].text}
               </h2>
-              <p className="text-center text-lg lg:text-xl font-bold text-zinc-800 ">
+              <p className="text-center md:text-xl font-bold text-zinc-800">
                 {reviews[i+1].person}
               </p>
             </div>
