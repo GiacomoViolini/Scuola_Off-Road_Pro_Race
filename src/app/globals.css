@@ -2,26 +2,365 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@import "react-slideshow-image/dist/styles.css";
+
+@property --myColor1 {
+  syntax: "<color>";
+  initial-value: hsl(113, 97%, 42%);
+  inherits: false;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+@property --myColor2 {
+  syntax: "<color>";
+  initial-value: hsl(113, 100%, 74%);
+  inherits: false;
+}
+
+.each-slide-effect > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 93vh;
+}
+
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.35);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.hero-text {
+  position: absolute;
+  z-index: 2;
+  /* font-size: 4.3rem;
+  font-weight: 900; */
+  left: 10%;
+  /* text-align: start; */
+  top: 40%;
+}
+/* .hero-text {
+  user-select: none;
+  --random-text: "Scuola OFF ROAD PRO-RACE";
+  color: transparent;
+  font-family: "Catamaran", sans-serif;
+  font-style: italic;
+}
+
+.hero-text::after {
+  content: var(--random-text);
+  position: absolute;
+  left: -10px;
+  top: -2px;
+  color: rgba(255, 255, 255, 0.91);
+  clip-path: polygon(0 25%, 100% 65%, 100% 100%, 0% 100%);
+}
+
+.hero-text::before {
+  content: var(--random-text);
+  position: absolute;
+  color: rgb(237, 228, 228);
+  clip-path: polygon(0 0, 110% 0, 100% 65%, 0 25%);
+} */
+
+.hero-button {
+  background: linear-gradient(
+    to bottom right,
+    var(--myColor1),
+    var(--myColor2)
+  );
+  border-radius: 1rem;
+  position: absolute;
+  z-index: 2;
+  color: white;
+  font-size: 1.2rem;
+  padding: 0.6rem 1rem;
+  font-weight: 700;
+  left: 10%;
+  top: 60%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  transition: --myColor1 0.8s, --myColor2 0.8s;
+}
+.hero-button:hover {
+  --myColor1: #ff0076;
+  --myColor2: #ff4da0;
+}
+.review-button {
+  background: linear-gradient(
+    to bottom right,
+    var(--myColor1),
+    var(--myColor2)
+  );
+  border-radius: 1rem;
+  color: white;
+  font-size: 1.2rem;
+  padding: 0.6rem 1rem;
+  font-weight: 700;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  transition: --myColor1 0.8s, --myColor2 0.8s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.review-button:hover {
+  --myColor1: #ff0076;
+  --myColor2: #ff4da0;
+}
+#informazioni {
+  scroll-margin-top: 4rem;
+}
+#galleria {
+  scroll-margin-top: 6rem;
+}
+#istruttore {
+  scroll-margin-top: 10rem;
+}
+#diconodinoi {
+  scroll-margin-top: 5rem;
+}
+
+.green-link {
+  cursor: pointer;
+  display: inline-block;
+  padding-bottom: 2px;
+  background-image: linear-gradient(#1dd503 0 0);
+  background-position: 0 100%;
+  background-size: 0% 1px;
+  background-repeat: no-repeat;
+  transition: background-size 0.4s, background-position 0s 0.5s;
+}
+
+.green-link:hover {
+  background-position: 100% 100%;
+  background-size: 100% 5px;
+}
+
+.pink-link {
+  cursor: pointer;
+  display: inline-block;
+  padding-bottom: 2px;
+  background-image: linear-gradient(#ff0076 0 0);
+  background-position: 0 100%;
+  background-size: 0% 1px;
+  background-repeat: no-repeat;
+  transition: background-size 0.4s, background-position 0s 0.5s;
+}
+
+.pink-link:hover {
+  background-position: 100% 100%;
+  background-size: 100% 5px;
+}
+.gcontainer {
+  height: 22rem;
+  width: 28rem;
+  position: absolute;
+  overflow: hidden;
+}
+
+.gallery {
+  object-fit: cover;
+  width: 95%;
+  height: 24rem;
+  border-radius: 0.25rem; /* You can adjust the value based on your preference */
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+    0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color),
+    0 8px 10px -6px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  transition-duration: 0.5s;
+}
+
+.gallery:hover,
+.gallery:active {
+  transform: scale(1.05);
+}
+.paragraph {
+  font-weight: 600;
+  font-size: 1rem;
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity));
+}
+
+.istruttore-immagine {
+  width: 34rem; /* 1rem = 16px, so 24rem = 384px */
+  height: 34rem; /* 1rem = 16px, so 20rem = 320px */
+  object-fit: cover;
+  border-radius: 0.5rem; /* You can adjust the value based on your preference */
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+    0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color),
+    0 8px 10px -6px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  transition-duration: 0.5s;
+}
+
+.hamburger {
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #101010;
+}
+.contatti {
+  background-color: rgb(243, 244, 246);
+  display: "flex";
+  flex-direction: "column";
+  padding-bottom: 3rem;
+  height: "80vh";
+}
+@media screen and (max-width: 1024px) {
+  .hero-text {
+    left: 6%;
+    top: 40%;
+    font-size: 3.2rem;
+  }
+  .hero-text::after {
+    left: -2px;
+    top: 1px;
+  }
+  .hero-button {
+    left: 6%;
+    font-size: 1.2rem;
+    padding: 0.8rem 1.2rem;
+    top: 58%;
+  }
+  .review-button {
+    font-size: 1.2rem;
+    padding: 0.8rem 1.2rem;
+  }
+  .paragraph {
+    font-size: 1.3rem;
+  }
+  .contatti {
+    padding-top: 4rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hero-text {
+    left: 6%;
+    top: 40%;
+    font-size: 3.2rem;
+  }
+  .hero-text::after {
+    left: -2px;
+    top: 1px;
+  }
+  .hero-button {
+    left: 6%;
+  }
+  .contatti {
+    padding-top: 4rem;
+  }
+  .paragraph {
+    font-size: 1.2rem;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@media screen and (max-width: 640px) {
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 4rem;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+  .nav-item {
+    margin: 1rem 0;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .hero-text {
+    left: 6%;
+    top: 40%;
+    font-size: 2.3rem;
+  }
+  .hero-text::after {
+    left: -2px;
+    top: 1px;
+  }
+  .hero-button {
+    left: 6%;
+    font-size: 1.2rem;
+    padding: 0.6rem 1rem;
+    top: 55%;
+  }
+  .review-button {
+    font-size: 1.2rem;
+    padding: 0.6rem 1rem;
+  }
+
+  .istruttore-immagine {
+    width: 22rem;
+    height: 22rem;
+  }
+
+  .paragraph {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .contatti {
+    padding-top: 18rem;
+  }
+  .hero-text {
+    left: 2%;
+    top: 40%;
+    font-size: 2.3rem;
+  }
+  .hero-text::after {
+    left: -2px;
+    top: 1px;
+  }
+  .hero-button {
+    left: 2%;
+    font-size: 1rem;
+    padding: 0.6rem 1rem;
+    top: 60%;
+  }
+  .review-button {
+    font-size: 1rem;
+    padding: 0.6rem 1rem;
+  }
+  .paragraph {
+    font-size: 0.7rem;
+  }
 }
