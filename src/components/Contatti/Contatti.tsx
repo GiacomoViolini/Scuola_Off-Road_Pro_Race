@@ -12,7 +12,7 @@ export default function Contatti() {
       }}
     >
       <h2
-        className="text-center lg:text-left lg:ml-10 mb-6 text-4xl lg:text-5xl font-extrabold text-gray-800 underline decoration-custom-pink decoration-8 underline-offset-8"
+        className="text-center lg:text-left lg:ml-10 mb-6 text-3xl lg:text-4xl font-extrabold text-gray-800 underline decoration-custom-pink decoration-8 underline-offset-8"
         id="contatti"
       >
         CONTATTI

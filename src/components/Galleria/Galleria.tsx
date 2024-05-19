@@ -26,12 +26,12 @@ export default function Galleria() {
   return (
     <div className="bg-gray-100 pt-5 px-5">
       <h2
-        className="text-center lg:text-left lg:ml-10  mb-6 text-4xl lg:text-5xl font-extrabold text-gray-800 underline decoration-custom-green decoration-8 underline-offset-8"
+        className="text-center lg:text-left lg:ml-10  mb-6 text-3xl lg:text-4xl font-extrabold text-gray-800 underline decoration-custom-green decoration-8 underline-offset-8"
         id="galleria"
       >
         GALLERIA
       </h2>
-      <h3 className="text-center lg:text-left lg:ml-10  mb-6 text-3xl font-extrabold text-zinc-600">
+      <h3 className="text-center lg:text-left lg:ml-10  mb-6 text-2xl font-extrabold text-zinc-600">
         Off-Road
       </h3>
       <div className="grid grid-cols-1  md:grid-cols-2 2xl:grid-cols-3 gap-y-8 gap-x-2 place-items-center">
@@ -144,7 +144,7 @@ export default function Galleria() {
           quality={100}
         />
       </div>
-      <h3 className="text-center lg:text-left lg:ml-10 my-6 text-3xl font-extrabold text-zinc-600">
+      <h3 className="text-center lg:text-left lg:ml-10 my-6 text-2xl font-extrabold text-zinc-600">
         Guida Sicura
       </h3>
       <div className="grid grid-cols-1  md:grid-cols-2 2xl:grid-cols-3 gap-y-8 gap-x-2 place-items-center">
