@@ -56,7 +56,7 @@ const DiconoDiNoi = () => {
 
   return (
     <div className="bg-gray-100">
-      <div className="flex flex-col md:flex-row justify-evenly mx-4 lg:mx-10">
+      <div className="flex flex-col md:flex-row justify-evenly lg:justify-between mx-4 lg:mx-10">
         <h2
           className="text-center lg:text-left mb-6 text-3xl lg:text-4xl font-extrabold text-gray-800 underline decoration-custom-green decoration-8 underline-offset-8"
           id="diconodinoi"
