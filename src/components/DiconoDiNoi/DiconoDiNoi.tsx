@@ -44,7 +44,7 @@ const DiconoDiNoi = () => {
 
   const handleNext = () => {
     setOpacity(0);
-    if (i == reviews.length - 1 || i+1 == reviews.length - 1) {
+    if (i == reviews.length - 1 || i + 1 == reviews.length - 1) {
       setI(0);
     } else {
       setI(i + 1);
@@ -55,51 +55,48 @@ const DiconoDiNoi = () => {
   };
 
   return (
-    <div className="h-view bg-gray-100">
-    <div className="flex flex-col md:flex-row justify-between mx-4 lg:mx-10">
+    <div className="bg-gray-100">
+      <div className="flex flex-col md:flex-row justify-evenly mx-4 lg:mx-10">
         <h2
-            className="text-center lg:text-left mb-6 text-3xl lg:text-4xl font-extrabold text-gray-800 underline decoration-custom-green decoration-8 underline-offset-8"
-            id="diconodinoi"
+          className="text-center lg:text-left mb-6 text-3xl lg:text-4xl font-extrabold text-gray-800 underline decoration-custom-green decoration-8 underline-offset-8"
+          id="diconodinoi"
         >
-            DICONO DI NOI
+          DICONO DI NOI
         </h2>
-        <a
-            href="mailto:prorace@libero.it"
-            className="review-button"
-        >
-            Invia la tua recensione
+        <a href="mailto:prorace@libero.it" className="review-button">
+          Invia la tua recensione
         </a>
-    </div>
-      <div className="flex items-center mx-4">
+      </div>
+      <div className="flex items-center mx-1 lg:mx-4">
         <button
           className="bg-zinc-700 text-white font-bold w-10 h-10 p-3 rounded-full flex items-center justify-center"
           onClick={handlePrev}
         >
-          <FaArrowLeft />
+          <FaArrowLeft/>
         </button>
         <div
-          className="grid grid-cols-1 lg:grid-cols-2 gap-5 p-4 md:py-10 md:px-6"
+          className="grid grid-cols-1 lg:grid-cols-2 gap-5 py-4 px-2 md:py-10 md:px-6"
           id="istruttore"
         >
           <div
-            className={`flex flex-col items-center justify-center bg-white h-[35rem] md:h-[27rem] p-2 md:py-4 md:px-8 rounded-3xl shadow-2xl opacity-${opacity}`}
+            className={`flex flex-col items-center justify-center bg-white h-[27rem] md:h-[34rem] p-2 md:py-4 md:px-8 rounded-xl shadow-2xl opacity-${opacity}`}
           >
-            <h2 className="my-1 md:my-5 text-sm md:text-base text-center font-semibold text-zinc-500">
+            <h2 className="my-1 md:my-5 text-xs md:text-base text-center font-semibold text-zinc-500">
               &ldquo;{reviews[i].text}
             </h2>
             <p className="text-center md:text-xl font-bold text-zinc-800 ">
               {reviews[i].person}
             </p>
           </div>
-          {i+1 < reviews.length && (
+          {i + 1 < reviews.length && (
             <div
-              className={`hidden lg:flex flex-col items-center justify-center bg-white h-[27rem] py-4 px-8 rounded-3xl shadow-2xl opacity-${opacity}`}
+              className={`hidden lg:flex flex-col items-center justify-center bg-white h-[34rem] py-4 px-8 rounded-3xl shadow-2xl opacity-${opacity}`}
             >
               <h2 className="my-1 md:my-5 text-sm md:text-base text-center font-semibold text-zinc-500">
-                &ldquo;{reviews[i+1].text}
+                &ldquo;{reviews[i + 1].text}
               </h2>
               <p className="text-center md:text-xl font-bold text-zinc-800">
-                {reviews[i+1].person}
+                {reviews[i + 1].person}
               </p>
             </div>
           )}
@@ -115,4 +112,3 @@ const DiconoDiNoi = () => {
   );
 };
 export default DiconoDiNoi;
-

@@ -5,11 +5,11 @@ export default function Istruttore() {
         ISTRUTTORE
       </h2>
       <div className="flex flex-col gap-8" id="istruttore">
-        <div className="flex flex-col items-center bg-white p-5 rounded-3xl shadow transition-all hover:shadow-xl duration-500">
-          <h2 className="mb-4 text-2xl lg:text-3xl text-center font-bold text-gray-700 underline decoration-custom-green underline-offset-4 decoration-4">
+        <div className="flex flex-col items-center bg-white p-3 md:p-5 rounded-xl shadow transition-all hover:shadow-xl duration-500">
+          <h2 className="mb-4 text-xl md:text-2xl lg:text-3xl text-center font-bold text-gray-700 underline decoration-custom-green underline-offset-4 decoration-4">
             CARRIERA AGONISTICA
           </h2>
-          <p className="text-center font-medium text-gray-600 ">
+          <p className="text-center text-sm md:text-base font-medium text-gray-600 ">
             Ciao! Sono Pierluigi Lasaponara, il Tecnico Educatore responsabile
             dell’attività formativa di questa Scuola. Ho cominciato a vivere
             nell’ambiente delle corse nel 1979, a 14 anni, facendo il meccanico
@@ -24,11 +24,11 @@ export default function Istruttore() {
             (praticando sia motocross che enduro) fino al 2018.
           </p>
         </div>
-        <div className="flex flex-col items-center bg-white p-5 rounded-3xl shadow transition-all hover:shadow-xl duration-500">
-          <h2 className="mb-4 text-2xl lg:text-3xl text-center font-bold text-gray-700 underline decoration-custom-pink underline-offset-4 decoration-4">
+        <div className="flex flex-col items-center bg-white p-3 md:p-5 rounded-xl shadow transition-all hover:shadow-xl duration-500">
+          <h2 className="mb-4 text-xl md:text-2xl lg:text-3xl text-center font-bold text-gray-700 underline decoration-custom-pink underline-offset-4 decoration-4">
             ESPERIENZE DI FORMAZIONE
           </h2>
-          <p className="text-center font-medium text-gray-600 ">
+          <p className="text-center text-sm md:text-base font-medium text-gray-600 ">
             Nel ’98 ho aperto un team che aveva lo scopo istituzionale di
             aiutare economicamente e tecnicamente una quindicina di piloti, tra
             cui alcuni ragazzi molto giovani, che hanno portato grandi

@@ -12,14 +12,14 @@ export default function Informazioni() {
           alt="Informazioni 1"
           width="0"
           height="0"
-          className=" w-72 h-72 object-cover rounded-full"
+          className=" w-60 h-60 md:w-72 md:h-72 object-cover rounded-full"
           sizes="(min-width: 400px) 288px, calc(85vw - 35px)"
           quality={100}
         />
-        <h2 className="my-6 text-3xl lg:text-3xl text-center font-bold text-gray-800 underline decoration-custom-green underline-offset-8 decoration-8">
+        <h2 className="my-6 text-2xl lg:text-3xl text-center font-bold text-gray-800 underline decoration-custom-green underline-offset-8 decoration-8">
           Chi Siamo?
         </h2>
-        <p className="text-center font-medium text-gray-800 ">
+        <p className="text-center text-sm md:text-base font-medium text-gray-800 ">
           La SCUOLA OFF-ROAD PRO-RACE è il risultato della passione di Pierluigi
           Lasaponara e dei suoi soci per il mondo delle due ruote. Fondato con
           l’obiettivo di avvicinare appassionati di tutte le età all’uso sicuro
@@ -28,20 +28,20 @@ export default function Informazioni() {
           sia Off Road che On Road.
         </p>
       </div>
-      <div className="flex flex-col items-center bg-white p-5 rounded-3xl shadow-2xl transition-transform transform hover:scale-95 duration-500">
+      <div className="flex flex-col items-center bg-white p-3 rounded-3xl shadow-2xl transition-transform transform hover:scale-95 duration-500">
         <Image
           src="/informazioni2.jpg"
           alt="Informazioni 2"
           width="0"
           height="0"
-          className=" w-72 h-72 object-cover rounded-full"
+          className=" w-60 h-60 md:w-72 md:h-72 object-cover rounded-full"
           sizes="(min-width: 400px) 288px, calc(85vw - 35px)"
           quality={100}
         />
-        <h2 className="my-6 text-3xl lg:text-3xl text-center font-bold text-gray-800 underline decoration-custom-pink underline-offset-8 decoration-8">
+        <h2 className="my-6 text-2xl lg:text-3xl text-center font-bold text-gray-800 underline decoration-custom-pink underline-offset-8 decoration-8">
           Cosa Offriamo?
         </h2>
-        <p className="text-center font-medium text-gray-800 ">
+        <p className="text-center text-sm md:text-base font-medium text-gray-800 ">
           Il nostro programma didattico flessibile e personalizzabile offre
           corsi collettivi e individuali di MINICROSS, MOTOCROSS, ENDURO,
           MOTARD, TRIAL e GUIDA SICURA, adattati ai diversi livelli di
@@ -54,20 +54,20 @@ export default function Informazioni() {
           tutte le piste omologate UISP marchigiane e delle regioni limitrofe.
         </p>
       </div>
-      <div className="flex flex-col  items-center bg-white p-5 rounded-3xl shadow-2xl transition-transform transform hover:scale-95 duration-500">
+      <div className="flex flex-col items-center bg-white p-3 rounded-3xl shadow-2xl transition-transform transform hover:scale-95 duration-500">
         <Image
           src="/informazioni3.jpg"
           alt="Informazioni 3"
           width="0"
           height="0"
-          className="w-72 h-72 object-cover rounded-full"
+          className=" w-60 h-60 md:w-72 md:h-72 object-cover rounded-full"
           sizes="(min-width: 400px) 288px, calc(85vw - 35px)"
           quality={100}
         />
-        <h2 className="my-6 text-3xl lg:text-3xl text-center font-bold text-gray-800 underline decoration-custom-green underline-offset-8 decoration-8">
+        <h2 className="my-6 text-2xl lg:text-3xl text-center font-bold text-gray-800 underline decoration-custom-green underline-offset-8 decoration-8">
           Cosa Aspettarsi?
         </h2>
-        <p className="text-center font-medium text-gray-800 ">
+        <p className="text-center text-sm md:text-base font-medium text-gray-800 ">
           Presso la SCUOLA OFF-ROAD PRO-RACE, gli iscritti e le iscritte possono
           aspettarsi un ambiente sicuro e controllato per imparare e crescere
           nel mondo delle due ruote. I nostri istruttori, formati e

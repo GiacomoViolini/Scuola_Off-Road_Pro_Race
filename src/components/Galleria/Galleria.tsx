@@ -34,7 +34,7 @@ export default function Galleria() {
       <h3 className="text-center lg:text-left lg:ml-10  mb-6 text-2xl font-extrabold text-zinc-600">
         Off-Road
       </h3>
-      <div className="grid grid-cols-1  md:grid-cols-2 2xl:grid-cols-3 gap-y-8 gap-x-2 place-items-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 gap-y-8 gap-x-2 place-items-center">
         <Image
           src={images[0]}
           alt="Galleria 1"
