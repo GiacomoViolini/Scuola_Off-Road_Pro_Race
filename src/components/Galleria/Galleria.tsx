@@ -22,7 +22,7 @@ export default function Galleria() {
     "/guida_sicura/s4.jpg",
     "/guida_sicura/s5.png",
     "/guida_sicura/s6.jfif",
-    "/galleria/g13.jpg",
+    "/guida_sicura/s7.jpg",
   ];
   return (
     <div className="bg-gray-100 pt-5 px-5">
