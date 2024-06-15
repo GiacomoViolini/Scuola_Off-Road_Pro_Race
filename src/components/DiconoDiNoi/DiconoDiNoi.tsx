@@ -90,7 +90,7 @@ const DiconoDiNoi = () => {
           </div>
           {i + 1 < reviews.length && (
             <div
-              className={`hidden lg:flex flex-col items-center justify-center bg-white h-[34rem] py-4 px-8 rounded-3xl shadow-2xl opacity-${opacity}`}
+              className={`hidden lg:flex flex-col items-center justify-center bg-white h-[34rem] p-2 py-4 px-8 rounded-xl shadow-2xl opacity-${opacity}`}
             >
               <h2 className="my-1 md:my-5 text-sm md:text-base text-center font-semibold text-zinc-500">
                 &ldquo;{reviews[i + 1].text}
