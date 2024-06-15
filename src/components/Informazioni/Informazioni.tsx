@@ -13,7 +13,7 @@ export default function Informazioni() {
           width="0"
           height="0"
           className=" w-60 h-60 md:w-72 md:h-72 object-cover rounded-full"
-          sizes="(min-width: 400px) 288px, calc(85vw - 35px)"
+          sizes="(min-width: 780px) 288px, 233px"
           quality={100}
         />
         <h2 className="my-6 text-2xl lg:text-3xl text-center font-bold text-gray-800 underline decoration-custom-green underline-offset-8 decoration-8">
@@ -35,7 +35,7 @@ export default function Informazioni() {
           width="0"
           height="0"
           className=" w-60 h-60 md:w-72 md:h-72 object-cover rounded-full"
-          sizes="(min-width: 400px) 288px, calc(85vw - 35px)"
+          sizes="(min-width: 780px) 288px, 233px"
           quality={100}
         />
         <h2 className="my-6 text-2xl lg:text-3xl text-center font-bold text-gray-800 underline decoration-custom-pink underline-offset-8 decoration-8">
@@ -61,7 +61,7 @@ export default function Informazioni() {
           width="0"
           height="0"
           className=" w-60 h-60 md:w-72 md:h-72 object-cover rounded-full"
-          sizes="(min-width: 400px) 288px, calc(85vw - 35px)"
+          sizes="(min-width: 780px) 288px, 233px"
           quality={100}
         />
         <h2 className="my-6 text-2xl lg:text-3xl text-center font-bold text-gray-800 underline decoration-custom-green underline-offset-8 decoration-8">

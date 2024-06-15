@@ -24,7 +24,7 @@ export default function Contatti() {
           width="0"
           height="0"
           className="w-11/12 xl:w-1/2 h-full xl:h-[28rem] object-cover rounded-lg border-2 border-zinc-300"
-          sizes="(min-width: 1280px) 47.67vw, 80vw"
+          sizes="(min-width: 1280px) 47.67vw, 91.67vw"
         />
         <div className="flex flex-col gap-2 xl:gap-4 text-zinc-600 mt-4 xl:mt-0 xl:text-left bg-white border-2 border-zinc-300 rounded-lg w-11/12 xl:w-1/2 h-full xl:h-[28rem] p-4 shadow-lg">
           <h2 className="text-lg lg:text-xl">

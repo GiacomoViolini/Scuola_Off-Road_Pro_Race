@@ -72,7 +72,7 @@ const DiconoDiNoi = () => {
           className="bg-zinc-700 text-white font-bold w-10 h-10 p-3 rounded-full flex items-center justify-center"
           onClick={handlePrev}
         >
-          <FaArrowLeft/>
+          <FaArrowLeft />
         </button>
         <div
           className="grid grid-cols-1 lg:grid-cols-2 gap-5 py-4 px-2 md:py-10 md:px-6"

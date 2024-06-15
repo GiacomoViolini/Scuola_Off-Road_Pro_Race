@@ -22,6 +22,7 @@ export default function Galleria() {
     "/guida_sicura/s4.jpg",
     "/guida_sicura/s5.png",
     "/guida_sicura/s6.jfif",
+    "/galleria/g13.jpg",
   ];
   return (
     <div className="bg-gray-100 pt-5 px-5">
@@ -41,7 +42,9 @@ export default function Galleria() {
           width="0"
           height="0"
           className="gallery"
-          sizes="(min-width: 1540px) 31.64vw, (min-width: 780px) calc(47.43vw - 22px), calc(95vw - 38px)"
+          sizes="(min-width: 1540px) 31.64vw,
+          (min-width: 780px) calc(47.43vw - 22px),
+          calc(95vw - 38px)"
           quality={100}
         />
         <Image
@@ -50,7 +53,9 @@ export default function Galleria() {
           width="0"
           height="0"
           className="gallery"
-          sizes="(min-width: 1540px) 31.64vw, (min-width: 780px) calc(47.43vw - 22px), calc(95vw - 38px)"
+          sizes="(min-width: 1540px) 31.64vw,
+          (min-width: 780px) calc(47.43vw - 22px),
+          calc(95vw - 38px)"
           quality={100}
         />
         <Image
@@ -59,7 +64,9 @@ export default function Galleria() {
           width="0"
           height="0"
           className="gallery"
-          sizes="(min-width: 1540px) 31.64vw, (min-width: 780px) calc(47.43vw - 22px), calc(95vw - 38px)"
+          sizes="(min-width: 1540px) 31.64vw,
+		(min-width: 780px) calc(47.43vw - 22px),
+		calc(95vw - 38px)"
           quality={100}
         />
         <Image
@@ -68,7 +75,9 @@ export default function Galleria() {
           width="0"
           height="0"
           className="gallery"
-          sizes="(min-width: 1540px) 31.64vw, (min-width: 780px) calc(47.43vw - 22px), calc(95vw - 38px)"
+          sizes="(min-width: 1540px) 31.64vw,
+		(min-width: 780px) calc(47.43vw - 22px),
+		calc(95vw - 38px)"
           quality={100}
         />
         <Image
@@ -77,7 +86,9 @@ export default function Galleria() {
           width="0"
           height="0"
           className="gallery"
-          sizes="(min-width: 1540px) 31.64vw, (min-width: 780px) calc(47.43vw - 22px), calc(95vw - 38px)"
+          sizes="(min-width: 1540px) 31.64vw,
+		(min-width: 780px) calc(47.43vw - 22px),
+		calc(95vw - 38px)"
           quality={100}
         />
         <Image
@@ -86,7 +97,9 @@ export default function Galleria() {
           width="0"
           height="0"
           className="gallery"
-          sizes="(min-width: 1540px) 31.64vw, (min-width: 780px) calc(47.43vw - 22px), calc(95vw - 38px)"
+          sizes="(min-width: 1540px) 31.64vw,
+		(min-width: 780px) calc(47.43vw - 22px),
+		calc(95vw - 38px)"
           quality={100}
         />
         <Image
@@ -95,7 +108,9 @@ export default function Galleria() {
           width="0"
           height="0"
           className="gallery"
-          sizes="(min-width: 1540px) 31.64vw, (min-width: 780px) calc(47.43vw - 22px), calc(95vw - 38px)"
+          sizes="(min-width: 1540px) 31.64vw,
+		(min-width: 780px) calc(47.43vw - 22px),
+		calc(95vw - 38px)"
           quality={100}
         />
         <Image
@@ -104,7 +119,9 @@ export default function Galleria() {
           width="0"
           height="0"
           className="gallery"
-          sizes="(min-width: 1540px) 31.64vw, (min-width: 780px) calc(47.43vw - 22px), calc(95vw - 38px)"
+          sizes="(min-width: 1540px) 31.64vw,
+		(min-width: 780px) calc(47.43vw - 22px),
+		calc(95vw - 38px)"
           quality={100}
         />
         <Image
@@ -113,7 +130,9 @@ export default function Galleria() {
           width="0"
           height="0"
           className="gallery"
-          sizes="(min-width: 1540px) 31.64vw, (min-width: 780px) calc(47.43vw - 22px), calc(95vw - 38px)"
+          sizes="(min-width: 1540px) 31.64vw,
+		(min-width: 780px) calc(47.43vw - 22px),
+		calc(95vw - 38px)"
           quality={100}
         />
         <Image
@@ -122,7 +141,9 @@ export default function Galleria() {
           width="0"
           height="0"
           className="gallery"
-          sizes="(min-width: 1540px) 31.64vw, (min-width: 780px) calc(47.43vw - 22px), calc(95vw - 38px)"
+          sizes="(min-width: 1540px) 31.64vw,
+		(min-width: 780px) calc(47.43vw - 22px),
+		calc(95vw - 38px)"
           quality={100}
         />
         <Image
@@ -131,7 +152,9 @@ export default function Galleria() {
           width="0"
           height="0"
           className="gallery"
-          sizes="(min-width: 1540px) 31.64vw, (min-width: 780px) calc(47.43vw - 22px), calc(95vw - 38px)"
+          sizes="(min-width: 1540px) 31.64vw,
+		(min-width: 780px) calc(47.43vw - 22px),
+		calc(95vw - 38px)"
           quality={100}
         />
         <Image
@@ -140,7 +163,9 @@ export default function Galleria() {
           width="0"
           height="0"
           className="gallery"
-          sizes="(min-width: 1540px) 31.64vw, (min-width: 780px) calc(47.43vw - 22px), calc(95vw - 38px)"
+          sizes="(min-width: 1540px) 31.64vw,
+		(min-width: 780px) calc(47.43vw - 22px),
+		calc(95vw - 38px)"
           quality={100}
         />
       </div>
@@ -154,7 +179,9 @@ export default function Galleria() {
           width="0"
           height="0"
           className="gallery"
-          sizes="(min-width: 1540px) 31.64vw, (min-width: 780px) calc(47.43vw - 22px), calc(95vw - 38px)"
+          sizes="(min-width: 1540px) 31.64vw,
+		(min-width: 780px) calc(47.43vw - 22px),
+		calc(95vw - 38px)"
           quality={100}
         />
         <Image
@@ -163,7 +190,9 @@ export default function Galleria() {
           width="0"
           height="0"
           className="gallery"
-          sizes="(min-width: 1540px) 31.64vw, (min-width: 780px) calc(47.43vw - 22px), calc(95vw - 38px)"
+          sizes="(min-width: 1540px) 31.64vw,
+		(min-width: 780px) calc(47.43vw - 22px),
+		calc(95vw - 38px)"
           quality={100}
         />
         <Image
@@ -172,7 +201,9 @@ export default function Galleria() {
           width="0"
           height="0"
           className="gallery"
-          sizes="(min-width: 1540px) 31.64vw, (min-width: 780px) calc(47.43vw - 22px), calc(95vw - 38px)"
+          sizes="(min-width: 1540px) 31.64vw,
+		(min-width: 780px) calc(47.43vw - 22px),
+		calc(95vw - 38px)"
           quality={100}
         />
         <Image
@@ -181,7 +212,9 @@ export default function Galleria() {
           width="0"
           height="0"
           className="gallery"
-          sizes="(min-width: 1540px) 31.64vw, (min-width: 780px) calc(47.43vw - 22px), calc(95vw - 38px)"
+          sizes="(min-width: 1540px) 31.64vw,
+		(min-width: 780px) calc(47.43vw - 22px),
+		calc(95vw - 38px)"
           quality={100}
         />
         <Image
@@ -190,7 +223,9 @@ export default function Galleria() {
           width="0"
           height="0"
           className="gallery"
-          sizes="(min-width: 1540px) 31.64vw, (min-width: 780px) calc(47.43vw - 22px), calc(95vw - 38px)"
+          sizes="(min-width: 1540px) 31.64vw,
+		(min-width: 780px) calc(47.43vw - 22px),
+		calc(95vw - 38px)"
           quality={100}
         />
         <Image
@@ -199,9 +234,36 @@ export default function Galleria() {
           width="0"
           height="0"
           className="gallery"
-          sizes="(min-width: 1540px) 31.64vw, (min-width: 780px) calc(47.43vw - 22px), calc(95vw - 38px)"
+          sizes="(min-width: 1540px) 31.64vw,
+		(min-width: 780px) calc(47.43vw - 22px),
+		calc(95vw - 38px)"
           quality={100}
         />
+        <div>
+          <Image
+            src={guida[6]}
+            alt="Galleria 13"
+            width="0"
+            height="0"
+            className="gallery-text"
+            sizes="(min-width: 1540px) 31.64vw,
+            (min-width: 780px) calc(47.43vw - 22px),
+            calc(95vw - 38px)"
+            quality={100}
+          />
+          <p className="font-semibold text-gray-800 mt-2">
+            “La nostra pista scuola per i Primi Passi a Castelfidardo
+          </p>
+          <p>
+            📍
+            <a
+              href="https://maps.app.goo.gl/W4XtJkZVYvseLFVSA"
+              className="font-semibold text-gray-800 underline hover:text-zinc-600"
+            >
+              Posizione
+            </a>
+          </p>
+        </div>
       </div>
     </div>
   );

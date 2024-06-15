@@ -85,7 +85,8 @@
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
   transition: --myColor1 0.8s, --myColor2 0.8s;
 }
-.hero-button:hover , .hero-button:active {
+.hero-button:hover,
+.hero-button:active {
   --myColor1: #ff0076;
   --myColor2: #ff4da0;
 }
@@ -107,7 +108,8 @@
   justify-content: center;
 }
 
-.review-button:hover , .review-button:active {
+.review-button:hover,
+.review-button:active {
   --myColor1: #ff0076;
   --myColor2: #ff4da0;
 }
@@ -138,7 +140,8 @@
   transition: background-size 0.4s, background-position 0s 0.5s;
 }
 
-.green-link:hover , .green-link:active {
+.green-link:hover,
+.green-link:active {
   background-position: 100% 100%;
   background-size: 100% 5px;
 }
@@ -154,7 +157,8 @@
   transition: background-size 0.4s, background-position 0s 0.5s;
 }
 
-.pink-link:hover , .pink-link:active {
+.pink-link:hover,
+.pink-link:active {
   background-position: 100% 100%;
   background-size: 100% 5px;
 }
@@ -181,6 +185,25 @@
 
 .gallery:hover,
 .gallery:active {
+  transform: scale(1.05);
+}
+
+.gallery-text {
+  object-fit: cover;
+  width: 100%;
+  height: 24rem;
+  border-radius: 0.25rem; /* You can adjust the value based on your preference */
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+    0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color),
+    0 8px 10px -6px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  transition-duration: 0.5s;
+}
+
+.gallery-text:hover,
+.gallery-text:active {
   transform: scale(1.05);
 }
 .paragraph {
