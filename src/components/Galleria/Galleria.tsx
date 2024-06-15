@@ -239,7 +239,7 @@ export default function Galleria() {
 		calc(95vw - 38px)"
           quality={100}
         />
-        <div>
+        <div className="w-[95%]">
           <Image
             src={guida[6]}
             alt="Galleria 13"
