@@ -14,6 +14,7 @@ export default function Galleria() {
     "/galleria/g10.jpg",
     "/galleria/g11.jpg",
     "/galleria/g12.jpg",
+    "/galleria/g13.jpg",
   ];
   const guida = [
     "/guida_sicura/s1.jfif",
@@ -22,7 +23,6 @@ export default function Galleria() {
     "/guida_sicura/s4.jpg",
     "/guida_sicura/s5.png",
     "/guida_sicura/s6.jfif",
-    "/guida_sicura/s7.jpg",
   ];
   return (
     <div className="bg-gray-100 pt-5 px-5">
@@ -168,6 +168,31 @@ export default function Galleria() {
 		calc(95vw - 38px)"
           quality={100}
         />
+        <div className="w-[95%]">
+          <Image
+            src={images[12]}
+            alt="Galleria 13"
+            width="0"
+            height="0"
+            className="gallery-text"
+            sizes="(min-width: 1540px) 31.64vw,
+            (min-width: 780px) calc(47.43vw - 22px),
+            calc(95vw - 38px)"
+            quality={100}
+          />
+          <p className="font-semibold text-gray-800 mt-2">
+            “La nostra pista scuola per i Primi Passi a Castelfidardo
+          </p>
+          <p>
+            📍
+            <a
+              href="https://maps.app.goo.gl/W4XtJkZVYvseLFVSA"
+              className="font-semibold text-gray-800 underline hover:text-zinc-600"
+            >
+              Posizione
+            </a>
+          </p>
+        </div>
       </div>
       <h3 className="text-center lg:text-left lg:ml-10 my-6 text-2xl font-extrabold text-zinc-600">
         Guida Sicura
@@ -239,31 +264,6 @@ export default function Galleria() {
 		calc(95vw - 38px)"
           quality={100}
         />
-        <div className="w-[95%]">
-          <Image
-            src={guida[6]}
-            alt="Galleria 13"
-            width="0"
-            height="0"
-            className="gallery-text"
-            sizes="(min-width: 1540px) 31.64vw,
-            (min-width: 780px) calc(47.43vw - 22px),
-            calc(95vw - 38px)"
-            quality={100}
-          />
-          <p className="font-semibold text-gray-800 mt-2">
-            “La nostra pista scuola per i Primi Passi a Castelfidardo
-          </p>
-          <p>
-            📍
-            <a
-              href="https://maps.app.goo.gl/W4XtJkZVYvseLFVSA"
-              className="font-semibold text-gray-800 underline hover:text-zinc-600"
-            >
-              Posizione
-            </a>
-          </p>
-        </div>
       </div>
     </div>
   );
