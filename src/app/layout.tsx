@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { ReactNode } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,6 +18,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="it">
+      <head>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>{metadata.title as ReactNode}</title>
+        <meta name="description" content={metadata.description!} />
+        <meta name="author" content="Scuola OFF ROAD PRO-RACE" />
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );
