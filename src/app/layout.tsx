@@ -24,7 +24,11 @@ export default function RootLayout({
         <title>{metadata.title as ReactNode}</title>
         <meta name="description" content={metadata.description!} />
         <meta name="author" content="Scuola OFF ROAD PRO-RACE" />
-        <meta name="google-site-verification" content="33NisyScGn-AVWdkyP_2aC-gvZ2S8bVBUkL1zs_Z57s" />
+        <meta name="robots" content="index, follow"></meta>
+        <meta
+          name="google-site-verification"
+          content="33NisyScGn-AVWdkyP_2aC-gvZ2S8bVBUkL1zs_Z57s"
+        />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
